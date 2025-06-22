@@ -785,7 +785,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cinemachine Third Person
+  m_Text: Cinemachine Third Person and 2D to 3D
 --- !u!222 &312540037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -877,7 +877,9 @@ MonoBehaviour:
     <b>SPACE</b> to  jump
 
     <b>Left Control / C</b> (hold)
-    to crouch'
+    to crouch
+
+    <b>z</b> 2D to 3D'
 --- !u!222 &322337774
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2578,7 +2580,7 @@ MonoBehaviour:
   transitionTime: 2
   decalMovement: {fileID: 2041863519}
   frameQuad: {fileID: 698343410}
-  frameLitColor: {r: 1, g: 1, b: 1, a: 1}
+  frameLitColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   gameCam: {fileID: 109669588}
   wallCam: {fileID: 2118793877}
   dofVolume: {fileID: 1775915348}
