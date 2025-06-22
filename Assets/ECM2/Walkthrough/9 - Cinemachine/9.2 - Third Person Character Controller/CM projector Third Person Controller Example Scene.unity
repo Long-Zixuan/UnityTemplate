@@ -2578,7 +2578,7 @@ MonoBehaviour:
   transitionTime: 2
   decalMovement: {fileID: 2041863519}
   frameQuad: {fileID: 698343410}
-  frameLitColor: {r: 1, g: 1, b: 1, a: 0}
+  frameLitColor: {r: 1, g: 1, b: 1, a: 1}
   gameCam: {fileID: 109669588}
   wallCam: {fileID: 2118793877}
   dofVolume: {fileID: 1775915348}
@@ -3189,6 +3189,14 @@ PrefabInstance:
       propertyPath: m_UVScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5597728555421961669, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597728555421961669, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5597728556306822986, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
       propertyPath: m_Name
       value: ProjectorController
@@ -3257,6 +3265,14 @@ PrefabInstance:
       propertyPath: lineRef2
       value: 
       objectReference: {fileID: 116970914}
+    - target: {fileID: 5597728556411151747, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.508
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597728556411151749, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5597728556432488537, guid: 732ac57004d7b8c41886de2c048d76fd, type: 3}
       propertyPath: m_IsActive
       value: 0

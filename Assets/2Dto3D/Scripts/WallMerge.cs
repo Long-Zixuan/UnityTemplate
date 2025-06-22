@@ -201,8 +201,8 @@ public class WallMerge : MonoBehaviour
     {
         frameQuad.position = transform.position + new Vector3(0, .85f, 0) - (transform.forward * .5f);
         frameQuad.forward = -normal;
-        frameRenderer.material.SetColor("_UnlitColor", Color.clear);
-        frameRenderer.material.DOColor(frameLitColor, "_UnlitColor", 1f).SetDelay(.3f);
+        frameRenderer.material.SetColor("_BaseColor", Color.clear);
+        frameRenderer.material.DOColor(frameLitColor, "_BaseColor", 1f).SetDelay(.3f);
         frameQuad.DOMove(finalPosition + new Vector3(0, .85f, 0) - (transform.forward * .05f), finalTransition).SetEase(Ease.InBack).SetDelay(.2f);
     }
 
